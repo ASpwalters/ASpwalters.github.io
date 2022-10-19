@@ -1,0 +1,42 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #fff;
+  width: 1700px;
+  height: 1200px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#main {
+  float: left;
+  width: 1500px;
+}
+
+#sidebar {
+  float: right;
+  width: 100px;
+}
+
+#sequence {
+  width: 1200px;
+  height: 80px;
+}
+
+#legend {
+  padding: 10px 0 0 3px;
+}
+
+#sequence text, #legend text {
+  font-weight: 600;
+  fill: #fff;
+}
+
+#chart {
+  position: relative;
+}
+
+#chart rect {
+  stroke: #fff;
+}
